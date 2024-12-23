@@ -1,0 +1,38 @@
+.welcome_main{
+    background-image: url('../../assets/images/landing-page/welcome-back.png'); /* Image path */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    &__content{
+        
+        display: flex;
+        gap:80px;
+        .content_text{
+            width: 40%;
+            margin-top: 120px;
+            h1{
+                font-size: 40px;
+                font-weight: 700;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+                margin: 15px 0 40px;
+            }
+            button{
+                width: 340px;
+                height: 48px;
+                text-align: center;
+                border-radius: 8px;
+                border: 0;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+        img{
+            width: 50%;
+        }
+    }
+}
