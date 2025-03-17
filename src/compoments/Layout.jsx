@@ -5,6 +5,7 @@ import WelcomeMain from './WelcomeMain/WelcomeMain';
 import AboutCourse from './AboutCourse/AboutCourse';
 import Certificates from './Centificates/Certificates';
 import FAQ from './FAQ/FAQ';
+import Authors from './Authors/Authors';
 
 function Layout () {
     return (
@@ -13,6 +14,7 @@ function Layout () {
           <AboutCourse/>
           <Certificates />
           <FAQ/>
+          <Authors />
           <Outlet />
           <Footer />
         </>
